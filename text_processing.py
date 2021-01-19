@@ -60,15 +60,15 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    tmp_string = input_string.replace('a', '')
-    tmp_string = input_string.replace('e', '')
-    tmp_string = input_string.replace('i', '')
-    tmp_string = input_string.replace('o', '')
-    tmp_string = input_string.replace('u', '')
-    tmp_string = input_string.replace('A', '')
-    tmp_string = input_string.replace('E', '')
-    tmp_string = input_string.replace('I', '')
-    tmp_string = input_string.replace('O', '')
-    tmp_string = input_string.replace('U', '')
-    no_vowel_string = tmp_string
+    input_string = input_string.replace('a', '')
+    input_string = input_string.replace('e', '')
+    input_string = input_string.replace('i', '')
+    input_string = input_string.replace('o', '')
+    input_string = input_string.replace('u', '')
+    input_string = input_string.replace('A', '')
+    input_string = input_string.replace('E', '')
+    input_string = input_string.replace('I', '')
+    input_string = input_string.replace('O', '')
+    input_string = input_string.replace('U', '')
+    no_vowel_string = input_string
     return no_vowel_string
